@@ -137,7 +137,9 @@ import images from '../../img';
                 <div className={Style.sideBar}>
                  <SideBar setOpenSideMenu={setOpenSideMenu}/> 
                 </div>
-            )}
+           ) }
+          
+        
              </div>
              
              

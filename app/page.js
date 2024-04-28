@@ -1,13 +1,14 @@
 'use client';
 //INTERNAL IMPORT
 import "./globals.css"
-import {NavBar} from "../Component/componentIndex";
+import {NavBar,Footer} from "../Component/componentIndex";
 const MyApp=({component ,pageProps})=>{
     return(
     <div>
     <NavBar/>
      <component  {...pageProps}/>
      Home
+     <Footer/>  
     </div>
     );
 };
