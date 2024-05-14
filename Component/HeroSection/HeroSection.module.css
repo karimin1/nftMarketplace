@@ -1,5 +1,5 @@
 .HeroSection{
-    width:80%;
+    width:90%;
     margin: 3rem auto;
 }
 .HeroSection_box{
@@ -9,8 +9,9 @@
 }
 
 .HeroSection_box_left{
-    padding-right: 6rem;
+    padding-right: 0rem;
     border-color: yellow;
+    border-radius: 1rem;
 }
 
 .HeroSection_box_left h1{

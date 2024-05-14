@@ -15,7 +15,7 @@ import images from '../../img';
                         <Button btnName='Start yout search'/>
                     </div>
                     <div className={Style.HeroSection_box_left}> 
-                    <Image src={images.hero} alt='hero section' width={600} height={600}/> 
+                    <Image src={images.hero} alt='hero section' width={500} height={500}/> 
                     </div> 
             </div>
         </div>
