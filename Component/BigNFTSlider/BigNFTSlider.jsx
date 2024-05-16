@@ -129,7 +129,7 @@ const dec=useCallback(()=>{
                 </div>
                 <div className={Style.bigNFTSlider_box_left_bidding_box_timer}>
                         <div className={Style.bigNFTSlider_box_left_bidding_box_timer_item}>
-                        <p className={sliderData[idNumber].time.days}></p>
+                        <p>{sliderData[idNumber].time.days}</p>
                         <span>Days</span>
                         </div>
                         <div className={Style.bigNFTSlider_box_left_bidding_box_timer_item}>
