@@ -1,14 +1,15 @@
 import React from 'react';
 import Style from "../Component/Style/Style.css";
-import {Service,Title,HeroSection,BigNFTSlider,Subscription} from '../Component/componentIndex';
+import {Service,Categorie,Title,HeroSection,BigNFTSlider,Subscription} from '../Component/componentIndex';
 const Home=()=> {
     return (    
        <div> 
          <HeroSection/> 
          <Service/>
          <BigNFTSlider/>
-         <Subscription/>
          <Title heading='Browse by category' paragraph='explore the NFTs in the most featured categories'/>
+         <Categorie/>
+         <Subscription/>
         </div>
     );
 }

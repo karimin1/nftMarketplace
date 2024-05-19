@@ -1,5 +1,6 @@
 .title{
     width: 100%;
+    padding:0 8rem;
 }
 .title_box{
     width: 80%;
@@ -9,7 +10,7 @@
     font-size: 3rem;
     line-height: 0;
 }
-@media only screen and (min-width:320px) and (max-width:1024px){
+@media only screen and (min-width:320px) and (max-width:748px){
     .title_box{
         width: 90%;
     }
