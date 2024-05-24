@@ -6,5 +6,6 @@ import Service from './Services/service';
 import BigNFTSlider from './BigNFTSlider/BigNFTSlider';
 import Subscription from './subscription/Subscription';
 import Title from "./Title/title"
+import Filter from './Filter/filter';
 import Categorie from './Categorie/Categorie';
-export {Button,Categorie,Title,Footer,NavBar,Service,HeroSection,BigNFTSlider,Subscription};
+export {Button,Filter,Categorie,Title,Footer,NavBar,Service,HeroSection,BigNFTSlider,Subscription};

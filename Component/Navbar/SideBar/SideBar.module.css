@@ -1,6 +1,7 @@
 .sideBar_box{
     padding:2rem;
     border-bottom: 1px solid var(--icons-color);
+    background-color: var(--main-bg-color);
 }
 .sideBar_closeBtn{
     position: absolute;
@@ -47,5 +48,4 @@ cursor:pointer;
     display:flex;
     align-items:center;
     justify-content:space-between ;
-
 }

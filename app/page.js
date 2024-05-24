@@ -7,8 +7,8 @@ const MyApp=({component ,pageProps})=>{
     return(
     <div>
     <NavBar/>
-     <component  {...pageProps}/>
-      <Home/>  
+      <component  {...pageProps}/> 
+        <Home/>    
      <Footer/>  
     </div>
     );
