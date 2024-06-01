@@ -8,4 +8,5 @@ import Subscription from './subscription/Subscription';
 import Title from "./Title/title"
 import Filter from './Filter/filter';
 import Categorie from './Categorie/Categorie';
-export {Button,Filter,Categorie,Title,Footer,NavBar,Service,HeroSection,BigNFTSlider,Subscription};
+import NFTCard from './NFTCard/nftcard'
+export {Button,NFTCard,Filter,Categorie,Title,Footer,NavBar,Service,HeroSection,BigNFTSlider,Subscription};
