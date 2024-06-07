@@ -33,7 +33,7 @@ box-shadow: var(--box-shadow);
     border:1px solid var(--icons-color);
     padding:1rem 2rem;
     border-radius:2rem;
-    color: var(--main-bg-color);
+    color: var(--icons-color);
     box-shadow: var(--box-shadow);
     cursor: pointer;
     display: flex;

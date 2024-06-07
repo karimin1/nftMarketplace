@@ -40,8 +40,8 @@ const NFTCard=()=> {
               </div>
               <div className={Style.NFTCard_box_img}  >  
               <Image src={images.nft_image_1} alt='NFT images'
-              width={400}
-              height={400} className={Style.NFTCard_box_img_img}/>  
+              width={300}
+              height={300} className={Style.NFTCard_box_img_img}/>  
               </div> 
               <div className={Style.NFTCard_box_update_details}>
                 <div className={Style.NFTCard_box_update_details_price}>
