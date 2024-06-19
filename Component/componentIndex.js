@@ -10,4 +10,6 @@ import Filter from './Filter/filter';
 import Categorie from './Categorie/Categorie';
 import NFTCard from './NFTCard/nftcard';
 import Collection from './Collection/collection';
-export {Collection,Button,NFTCard,Filter,Categorie,Title,Footer,NavBar,Service,HeroSection,BigNFTSlider,Subscription};
+import FollowerTab from './FollowerTab/FollowerTab';
+import FollowerTabCard from './FollowerTabCard/FollowerTabCard'
+export {Collection,Button,NFTCard,Filter,Categorie,Title,Footer,NavBar,Service,HeroSection,BigNFTSlider,Subscription,FollowerTab,FollowerTabCard};

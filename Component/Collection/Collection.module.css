@@ -1,9 +1,16 @@
 .Collection{
     width:100%;
     padding:3rem 0;
+    text-align: center;
 }
+.Collection_collections{
+    width: 40%;
+    text-align: center;
+    margin: auto;
+}
+
 .Collection_title{
-    width:35%;
+    width:100%;
     margin:0;
     padding: 0 0 6rem 0;
     text-align: center;
@@ -56,15 +63,20 @@
     .Collection_collections_btn button{
         font-size: .7rem;
     }
+    .Collection_collections{
+        width: 100%;
+    }
 }
 @media only screen and (min-width:425px) and (max-width:1024px){
 .Collection_title{
     width:100%;
-    background-color: yellow;
 }
 .Collection_box{
     width:90%;
     grid-template-columns: repeat(2,1fr);
     gap:4rem;
+}
+.Collection_collections{
+    width: 100%;
 }
 }
