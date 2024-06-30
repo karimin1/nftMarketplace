@@ -1,6 +1,6 @@
 import React from 'react';
 import Style from "../Component/Style/Style.css";
-import {NFTCard,Filter,Service,Categorie,Title,HeroSection,BigNFTSlider,Subscription,Collection,FollowerTab} from '../Component/componentIndex';
+import {NFTCard,Filter,Service,Categorie,Title,HeroSection,BigNFTSlider,Subscription,Collection,FollowerTab,AudioLive} from '../Component/componentIndex';
 const Home=()=> {
     return (    
        <div> 
@@ -10,6 +10,9 @@ const Home=()=> {
          <Filter/>
          <NFTCard/>
          <FollowerTab/>
+         <Title heading='Latest Colection AudioLive' 
+         paragraph='explore the NFTs in the most featured categories'/>
+          <AudioLive/>
          <Title heading='New Collection' 
          paragraph='explore the NFTs in the most featured categories'/>
          <Collection/>

@@ -116,12 +116,12 @@
 }
 @media screen and (min-device-width:770px)and(max-device-width:1024px){
     .FollowerTabCard_box_profile::before{
-        left:42%;
+        margin-left: 10rem;
     }
     
 }
 @media screen and (min-device-width:1024px){
         .FollowerTabCard_box_profile_img{
-            margin-left: 5.5rem;
+            margin-left: -44%;
         }
 } 
