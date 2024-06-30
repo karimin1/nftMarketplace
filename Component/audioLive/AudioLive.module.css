@@ -1,12 +1,13 @@
 .AudioLive{
     width:100%;
+    margin: 3rem;
 }
 .AudioLive_box{
     width: 80%;
     margin:0 auto;
     padding-block:2rem 8rem;
     display: grid;
-    grid-template-columns: repeat(2fr,1fr);
+    grid-template-columns:2.5fr 1fr;
     gap:2rem;
 }
 .AudioLive_box_right{

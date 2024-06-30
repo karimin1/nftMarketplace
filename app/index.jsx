@@ -10,7 +10,7 @@ const Home=()=> {
          <Filter/>
          <NFTCard/>
          <FollowerTab/>
-         <Title heading='Latest Colection AudioLive' 
+         <Title heading='Audio Colection' 
          paragraph='explore the NFTs in the most featured categories'/>
           <AudioLive/>
          <Title heading='New Collection' 
