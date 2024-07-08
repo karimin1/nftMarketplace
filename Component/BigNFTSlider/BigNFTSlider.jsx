@@ -5,7 +5,7 @@ import {MdVerified,MdTimer}from "react-icons/md";
 import {TbArrowBigLeftLines,TbArrowBigRightLines}from 'react-icons/tb';
 //INTERNAL IMPORT
 import images from '../../img'
-import Button from '../Button/Button'
+import Button from '../button/Button'
 import Style from "./BigNFTSlider.module.css"
 const BigNFTSlider=()=>{
     const [idNumber,setIdNumber]=useState(1);
