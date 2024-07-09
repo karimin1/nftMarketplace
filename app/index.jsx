@@ -1,6 +1,6 @@
 import React from 'react';
 import Style from "../Component/Style/Style.css";
-import {NFTCard,Filter,Service,Categorie,Title,HeroSection,BigNFTSlider,Subscription,Collection,FollowerTab,AudioLive,Slide,Brand} from '../Component/componentIndex';
+import {NFTCard,Filter,Service,Categorie,Title,HeroSection,BigNFTSlider,Subscription,Collection,FollowerTab,AudioLive,Slide,Brand,Video} from '../Component/componentIndex';
 const Home=()=> {
     return (    
        <div> 
@@ -22,6 +22,7 @@ const Home=()=> {
         
          <Subscription/>
          <Brand/>
+         <Video/>
         </div>
     );
 }
