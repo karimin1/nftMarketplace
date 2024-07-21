@@ -1,3 +1,4 @@
+'use client';
 import {React,useState} from 'react'
 import  Style from './AudioCardSmall.module.css'
 import { GiCaptainHatProfile } from "react-icons/gi";

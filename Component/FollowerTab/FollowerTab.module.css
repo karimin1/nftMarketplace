@@ -40,7 +40,7 @@
     background-color: transparent;
     color: var(--icons-color);
 }
-.FollowerTab_box{
+.FollowerTab_tabs_box{
     width: 80%;
     margin: 0 auto;
     display: grid;

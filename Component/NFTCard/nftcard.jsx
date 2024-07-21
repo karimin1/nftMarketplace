@@ -1,3 +1,4 @@
+'use client';
 import { React,useState }  from 'react';
 import images from '../../img';
 import Style from "./NFTCard.module.css"
@@ -5,7 +6,7 @@ import Image from "next/image"
 import { AiFillHeart,AiOutlineHeart } from 'react-icons/ai';
 import {BsImages}from "react-icons/bs";
 const NFTCard=()=> {
-    const featureArray=[1,2,3,4,5,6,7,8,9];
+    const featureArray=[images.nft_image_1,images.nft_image_2,images.nft_image_3];
     const [like,setLike]=useState(true);
     const likeNFT=()=>{
       if(like){
@@ -39,7 +40,7 @@ const NFTCard=()=> {
               </div>
               </div>
               <div className={Style.NFTCard_box_img}  >  
-              <Image src={images.nft_image_1} alt='NFT images'
+              <Image src={el} alt='NFT images'
               width={300}
               height={300} className={Style.NFTCard_box_img_img}/>  
               </div> 

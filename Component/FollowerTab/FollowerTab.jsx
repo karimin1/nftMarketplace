@@ -1,15 +1,66 @@
+'use client';
 import React,{useState,useEffect}from 'react';
 import {
     RiUserFollowFill,RiUserUnfollowFill,RiAwardLine,
 }from 'react-icons/ri';
 import {FollowerTabCard} from '../componentIndex';
+import images from '../../img'   
 //INTERNAL IMPORT
 import Style from "./FollowerTab.module.css";
  const FollowerTab = () => {
-    const CardArray=[1,2,3,4,5,6,7,8];
-    const FollowingArray=[1,2,3,4,5,6];
-    const NewsArray=[1,2,3,4,5];
-    const [popular,setPopular]=useState(true);
+    const CardArray=[
+        {
+            user:images.user1,
+            background:images.creatorbackground1
+        },
+        {
+            user:images.user2,
+            background:images.creatorbackground2
+        },
+        {
+            user:images.user3,
+            background:images.creatorbackground3
+        },
+        {
+            user:images.user4,
+            background:images.creatorbackground4
+        },
+        {
+            user:images.user5,
+            background:images.creatorbackground5
+        },
+        {
+            user:images.user6,
+            background:images.creatorbackground6
+        },
+    ];
+    const FollowingArray=[    {
+        user:images.user3,
+        background:images.creatorbackground3
+    },
+    {
+        user:images.user6,
+        background:images.creatorbackground6
+    },
+    {
+        user:images.user5,
+        background:images.creatorbackground5
+    },
+    ];
+    const NewsArray=[    {
+        user:images.user6,
+        background:images.creatorbackground6
+    },
+    {
+        user:images.user4,
+        background:images.creatorbackground4
+    },
+    {
+        user:images.user7,
+        background:images.creatorbackground7
+    },
+    ];
+    const [popular,setPopular]=useState(false);
     const [following,setfollow]=useState(false);
     const [news,setNews]=useState(false);
     const openPopular=()=>{
@@ -46,7 +97,7 @@ import Style from "./FollowerTab.module.css";
             </div>
         </div>
         {popular &&(
-        <div className={Style.FollowerTab_box}>
+        <div className={Style.FollowerTab_tabs_box}>
         {CardArray.map((el,i)=>(
             <FollowerTabCard key={i+1} i={i} el={el}/>
 
@@ -56,7 +107,7 @@ import Style from "./FollowerTab.module.css";
         )}
         {following &&(
         <div className={Style.FollowerTab_tabs_box}>
-        {CardArray.map((el,i)=>(
+        {FollowingArray.map((el,i)=>(
             <FollowerTabCard key={i+1} i={i} el={el}/>
 
             ))}
@@ -65,7 +116,7 @@ import Style from "./FollowerTab.module.css";
         )}
         {news &&(
         <div className={Style.FollowerTab_tabs_box}>
-        {CardArray.map((el,i)=>(
+        {NewsArray.map((el,i)=>(
             <FollowerTabCard key={i+1} i={i} el={el}/>
 
             ))}
@@ -74,7 +125,6 @@ import Style from "./FollowerTab.module.css";
         )}
         <div className={Style.FollowerTab_member}>
         <div className={Style.FollowerTab_member_box}>
-        <a href="#">Show me more</a>
         <a href="#">Show me more</a>
         </div>
         </div>

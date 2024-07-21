@@ -1,17 +1,19 @@
+'use client';
 import react from "react"
 import Style from './SliderCard.module.css'
 import {motion} from "framer-motion";
-import images from '../../img'
 import Image from 'next/image'
 import { LikeProfile } from "../componentIndex";
-const SliderCard=()=>{
+const SliderCard=({el,i})=>{
+    {console.log(el)}
     return(
+        
         <motion.div className={Style.sliderCard}>
         
        <div className={Style.sliderCard_box}>
        <motion.div className={Style.sliderCard_box_img}>
-       <Image src={images.creatorbackground1} className={Style.sliderCard_box_img_img} alt='slide' width={300} height={200}
-        objectFit='cover' />
+       <Image src={el.background} className={Style.sliderCard_box_img_img} alt='slide' width={300} height={200}
+       style={{ objectFit: 'cover' }} />
        </motion.div>
        <div className={Style.sliderCard_box_title}>
        <p>NFT Videos</p>

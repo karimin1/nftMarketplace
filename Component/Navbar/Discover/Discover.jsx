@@ -1,11 +1,12 @@
 //INTERNAL IMPORT
+'use client';
 import Style from "./Discover.module.css"
 import Link from "next/link";
 const Discover=()=>{
     //-----DISCOVER NAVIGATION MENU
     const discover=[
     {
-        name:"Collection",
+        name:"Collectionxxx",
         link:"collection",
     },
     {

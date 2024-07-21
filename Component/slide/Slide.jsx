@@ -1,10 +1,37 @@
+'use client';
 import {react,useState,useEffect, useRef  } from 'react'
 import {motion} from 'framer-motion'
 import { TiArrowLeftThick,TiArrowRightThick } from 'react-icons/ti';
 import Style from './Slide.module.css'
 import SliderCard from './SliderCard'
+import images from '../../img'
 const  Slide=()=> {
-    const sliderArray=[1,2,3,4,5,6]
+    const sliderArray=[
+        {
+            user:images.user1,
+            background:images.creatorbackground1
+        },
+        {
+            user:images.user2,
+            background:images.creatorbackground2
+        },
+        {
+            user:images.user3,
+            background:images.creatorbackground3
+        },
+        {
+            user:images.user4,
+            background:images.creatorbackground4
+        },
+        {
+            user:images.user5,
+            background:images.creatorbackground5
+        },
+        {
+            user:images.user6,
+            background:images.creatorbackground6
+        },
+    ]
     const [Width,setWidth]=useState(0);
     const dragSlider=useRef();
     useEffect(()=>{

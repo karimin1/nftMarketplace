@@ -1,10 +1,11 @@
+'use client';
 import { React,useState } from "react";
 import Image from "next/image";
 import {MdVerified} from "react-icons/md";
 import { TiTick } from "react-icons/ti";
-import images from '../../img'
+import images from '../../img';
 import Style from "./FollowerTabCard.module.css"
-const FollowerTabCard=(i,el)=> {
+const FollowerTabCard=({i,el})=> {
     const [following,setFollowing]=useState(true);
     const followMe=()=>{
         if(following){
@@ -16,41 +17,44 @@ const FollowerTabCard=(i,el)=> {
     return (
         <div className={Style.FollowerTabCard}>
         <div className={Style.FollowerTabCard_rank}>
-        <p>
-            #{i+1}<span>😍</span>
-        </p>
+        <p>  #{i+1}<span>😍</span></p>
         </div>
 
         <div className={Style.FollowerTabCard_box}>
-        <div className={Style.FollowerTabCard_box_img}>
-        <Image className={Style.FollowerTabCard_box_img_img} src={images.creatorbackground1} 
-        alt="profil background" width={500} height={300}/>
-        </div>
-        <div className={Style.FollowerTabCard_box_profile}>
-        <Image className={Style.FollowerTabCard_box_profile_img} 
-        alt="picture" width={100} height={100} src={images.user1}/>  
-        </div>
-        <div className={Style.FollowerTabCard_box_info}>
-        <div className={Style.FollowerTabCard_box_info_name}>
-        <h4> 
-        Giada Maan {''}{''}
-        <span> <MdVerified/> </span> 
-        </h4> 
-        <p>12.321eth</p> 
-        </div>
+            <div className={Style.FollowerTabCard_box_img}>
+            <Image className={Style.FollowerTabCard_box_img_img} src={el.background} 
+            alt="profil background" width={500} height={300}/>
+            </div>
+            <div className={Style.FollowerTabCard_box_profile}>
+            <div className={Style.FollowerTabCard_box_profile_img}>
+            <Image  
+            alt="picture" width={100} height={100} src={el.user}/>  
+            </div>
+            </div>
+           
+            <div className={Style.FollowerTabCard_box_info}>
+            <div className={Style.FollowerTabCard_box_info_name}>
+            <h4> 
+            Giada Maan {''}{''}
+            <span> <MdVerified/> </span> 
+            </h4> 
+            <p>12.321eth</p> 
+            </div>
 
-        <div className={Style.FollowerTabCard_box_info_following}>
-            {following?(
-                <a onClick={()=> followMe()}>
-                    followed{""} <span><TiTick/></span>
-                </a>   
-            ):(
-                <a onClick={()=>followMe()}>unfollow</a>
-            )}
+            <div className={Style.FollowerTabCard_box_info_following}>
+                {following?(
+                    <a onClick={()=> followMe()}>
+                        followed{""} <span><TiTick/></span>
+                    </a>   
+                ):(
+                    <a onClick={()=>followMe()}>unfollow</a>
+                )}
+            </div>
+            </div>
         </div>
         </div>
-        </div>
-        </div>
+  
+       
     )
 }
 

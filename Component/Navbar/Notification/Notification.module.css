@@ -7,7 +7,8 @@
     left:-20rem;
     top:3.5rem;
     z-index:222222222;
-    background-color: var(--icons-light-color);
+background-color: var(--main-bg-color);
+ 
 }
 .notification>p{
     font-size:1.3rem;
@@ -43,4 +44,16 @@
     height: .5rem;
     border-radius: 50%;
     background-color: aqua;
+}
+@media screen and (maw-width:35em){
+    .notification{
+        width:21rem;
+        left:-11rem
+    }
+    .notification_box{
+        padding:3rem;
+    }
+    .notification_box p{
+    font-size:12px;
+    }
 }

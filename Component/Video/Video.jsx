@@ -1,3 +1,4 @@
+'use client';
 import React from 'react';
 import images from '../../img'
 import Style from './Video.module.css'
@@ -15,7 +16,7 @@ const Video=()=>{
             <Image src={images.nft_Video}
             width={600}
             height={500} 
-            objectFit="cover" 
+            style={{ objectFit: 'cover' }}
             className={Style.Video_box_frame_left_img}
             alt='video images'/>  
             </div>  

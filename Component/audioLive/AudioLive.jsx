@@ -1,4 +1,5 @@
 // @flow 
+'use client';
 import  React from 'react';
 import Style from './AudioLive.module.css'
 import AudioCard from './AudioCard';

@@ -1,3 +1,4 @@
+'use client';
 import React from 'react';
 import Style from './Subscription.module.css'
 import Image from "next/image";

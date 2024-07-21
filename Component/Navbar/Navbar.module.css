@@ -60,7 +60,7 @@ background-color: transparent;
     font-size:1rem;
     width:15rem;
     border-radius:1rem;
-    background-color: var(--icons-light-color)!important;
+    background-color: var(--main-bg-color);
 }
 .navbar_container_right_notify{
     position: relative;

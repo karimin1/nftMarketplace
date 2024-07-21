@@ -1,3 +1,4 @@
+'use client';
 import {React,useState} from 'react';
 import image from "../../img"
 import Image from 'next/image'
@@ -33,7 +34,7 @@ import { LikeProfile } from '../componentIndex';
             <div className={Style.audioCard_box}>
             
             <div className={Style.audioCard_box_img}>
-            <Image src={images.creatorbackground10} class={Style.audioCard_box_image} alt='background'/>
+            <Image src={images.creatorbackground10} className={Style.audioCard_box_image} alt='background'/>
             
             </div>
             <div className={Style.audioCard_box_musicPlayer} 
