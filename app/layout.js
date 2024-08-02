@@ -1,6 +1,6 @@
 'use client';
 import { NavBar,Footer } from "../Component/componentIndex";
-import './globals.css'
+import './Styles/globals.css'
 
 export default function RootLayout({ children }) {
   return (

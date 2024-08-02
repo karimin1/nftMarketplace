@@ -1,7 +1,7 @@
 'use client';
 import React from 'react';
 import images from "../../img"
-import Style from './collection.module.css'
+import Style from '../Styles/collection.module.css'
 import {Slide,Filter} from '../../Component/componentIndex'
 import  {Banner,NFTCardTwo,CollectionProfile} from '../../collectionPage/CollectionIndex'
 const Collection=()=> {
@@ -11,8 +11,9 @@ const Collection=()=> {
         <div className={Style.collection}>
            <Banner bannerImage={images.creatorbackground1}/>  
            <Filter/>
+  
            <NFTCardTwo  NFTData={CollectionArray}/> 
-          
+      
            <Slide/>
            <CollectionProfile />
         </div>
