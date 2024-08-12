@@ -1,0 +1,17 @@
+.NFTTabs{
+    width: 90%;
+    margin-top: 2rem;
+    
+}
+.NFTTabs_box{
+    width: 80%;
+    margin:0 auto;
+    align-items: center;
+    display: flex;
+    gap:1rem;
+    
+    
+}
+.NFTTabs_box_img{
+    margin-top: .5rem;
+}

@@ -19,7 +19,7 @@ const Discover=()=>{
     },
     {
         name:"NFT Details",
-        link:"NFT-details",
+        link:"nftdetails",
     },
     {
         name:"Account Setting",
