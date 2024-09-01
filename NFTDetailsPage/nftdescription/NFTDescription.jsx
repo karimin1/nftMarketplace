@@ -4,8 +4,8 @@ import { MdVerified,MdCloudUpload,MdTimer,MdReportProblem,MdOutlineDeleteSweep }
 import { BsThreeDots } from 'react-icons/bs';
 import {FaWallet,FaPercentage} from 'react-icons/fa'
 import {TiSocialFacebook,
-    TiSocialLinkedin,
-    TiSocialTwitter,
+TiSocialLinkedin,
+TiSocialTwitter,
 TiSocialYoutube,
 TiSocialInstagram,
 TiArrowSortedDown,

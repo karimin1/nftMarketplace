@@ -43,7 +43,7 @@ import musiceWave from "./musicwave.png";
 import update from "./update.png";
 import eran from './eran.png'
 import nft_Video from './nft_Video.png'
-
+import upload from './upload.png'
 export default {
   collection,
   update,
@@ -52,6 +52,7 @@ export default {
   nft_image_2,
   nft_image_3,
   getAble,
+  upload,
   nft_1,
   hero,
   creatorbackground1,
