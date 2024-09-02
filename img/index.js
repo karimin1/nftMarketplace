@@ -44,6 +44,11 @@ import update from "./update.png";
 import eran from './eran.png'
 import nft_Video from './nft_Video.png'
 import upload from './upload.png'
+import provider1 from './provider1.jpeg'
+import provider2 from './provider2.png'
+import provider3 from './provider3.jpg'
+import provider4 from './provider4.png'
+
 export default {
   collection,
   update,
@@ -91,4 +96,8 @@ export default {
   zgcmq,
   eran,
   nft_Video,
+  provider1,
+  provider2,
+  provider3,
+  provider4,
 };

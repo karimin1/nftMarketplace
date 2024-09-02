@@ -110,10 +110,10 @@ import images from '../../img';
                 {notification && <Notification/>}
             </div>
                 {/* CREATE BUTTON SECTION */}
-            <div className={Style.navbar_container_right_button}>  
+            {/* <div className={Style.navbar_container_right_button}>  
                 <Button btnName='Create' handleClick={()=>{} }/>
                 
-             </div> 
+             </div>  */}
                 {/* USER PROFILE */}
             <div className={Style.navbar_container_right_profile_box}>
                      <div className={Style.navbar_container_right_profile}> 
