@@ -35,8 +35,8 @@ const Discover=()=>{
     },
 
     {
-        name:" Blog",
-        link:" blog", 
+        name:" Contact us",
+        link:" contactus", 
     },
     ];
     return (
