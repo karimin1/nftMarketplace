@@ -41,8 +41,12 @@ import nft_image_2 from "./nft-image-2.png";
 import nft_image_3 from "./nft-image-3.png";
 import musiceWave from "./musicwave.png";
 import update from "./update.png";
-import eran from './eran.png'
-import nft_Video from './nft_Video.png'
+import eran from './eran.png';
+import nft_Video from './nft_Video.png';
+import founder1 from './founder1.jpeg';
+import founder2 from './founder2.png';
+import founder3 from './founder3.jpg';
+import founder4 from './founder4.jpeg';
 import upload from './upload.png'
 import provider1 from './provider1.jpeg'
 import provider2 from './provider2.png'
@@ -62,6 +66,10 @@ export default {
   hero,
   creatorbackground1,
   creatorbackground2,
+  founder1,
+  founder2,
+  founder3,
+  founder4,
   creatorbackground3,
   creatorbackground4,
   creatorbackground5,

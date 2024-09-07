@@ -38,6 +38,10 @@ const Discover=()=>{
         name:" Contact us",
         link:" contactus", 
     },
+    {
+        name:" About",
+        link:" about", 
+    },
     ];
     return (
     <div>
