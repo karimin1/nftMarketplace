@@ -1,0 +1,142 @@
+.FollowerTab{
+    width: 100%;
+    padding-block: 6rem;
+    border:1px;
+    position: relative;
+    padding-bottom:13rem;
+}
+.FollowerTab_title{
+    width: 30rem;
+    margin:0 auto;
+    padding: 0 0 6rem 0;
+    text-align:center;
+}
+.FollowerTab_title h2{
+    font-size:3rem ;
+    margin-bottom: 4rem;
+}
+.FollowerTab_tabs_btn{
+    background-color:var(--main-bg-color) ;
+    padding: .5em 1rem;
+    border-radius: 4rem;
+    display: flex;
+    justify-content: space-around;
+    gap:1rem;
+    align-items:center;
+    font-size: 1.2rem;
+    box-shadow: var(--box-shadow);
+}
+.FollowerTab_tabs_btn button{
+    background-color: var(--icons-color);
+    color:var(--main-bg-color);
+    padding:1rem;
+    border:none;
+    border-radius:4rem;
+    cursor:pointer;
+    border:1px solid var(--icons-color);
+    transition: all .3s ease-in;
+}
+.FollowerTab_tabs_btn button:hover{
+    background-color: transparent;
+    color: var(--icons-color);
+}
+.FollowerTab_tabs_box{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:2rem;
+}
+.FollowerTab_member{
+    text-align: center;
+}
+.FollowerTab_member_box{
+    width: 80%;
+    margin:0 auto;
+    padding: 7rem 0 0 0;
+    align-items: center;
+}
+    .FollowerTab_member_box a :first-child{
+        background-color: transparent;
+        color: var(--icons-color);
+        transition: all .3s ease-in;
+}
+.FollowerTab_member_box a :hover{
+    background-color: var(--icons-color);
+    color:var(--main-bg-color);
+}
+.FollowerTab_member_box a{
+    background-color: var(--icons-color);
+    margin-inline:.5rem ;
+    padding: 1rem 2rem;
+    color:var(--main-bg-color);
+    border-radius: 2rem;
+    border:1px solid var(--icons-color);
+    box-shadow: var(--box-shadow);
+    font-size: 1.3rem;
+}
+@media screen and (min-device-width:320px) 
+and (max-device-width:425px){
+    .FollowerTab{
+        padding-block: 6rem;
+    }
+    .FollowerTab_box{
+        width: 90%;
+        grid-template-columns: 1fr;
+    }
+    .FollowerTab_title{
+        width:90%;
+    }
+    .FollowerTab_title h2{
+        font-size: 2rem;
+    }
+    .FollowerTab_member_box{
+        gap:0;
+        width: 100%;
+    }
+    .FollowerTab_member_box a{
+        font-size: .8rem;
+        padding: .5rem 1rem;
+    }
+    .FollowerTab_tabs_btn button{
+        font-size: 1rem;
+    }
+} 
+/* @media screen and (min-device-width:428) 
+and (max-device-width:769){
+   .FollowerTab{
+    grid-template-columns: repeat(2,1fr);
+   }
+   .FollowerTab_title{
+    width: 90%;
+   }
+   .FollowerTab_title h2{
+    font-size: 3rem;
+   }
+   .FollowerTab_member_box a{
+    font-size: 1rem;
+    padding: .5rem 1rem;
+   }
+   .FollowerTab_box{
+    width:90%;
+    grid-template-columns: repeat(2,1fr);
+   }
+}  */
+@media screen and (min-device-width:428px) 
+and (max-device-width:769px){
+   .FollowerTab_title{
+   width: 90%;
+   }
+   .FollowerTab_title h2{
+    font-size: 3rem;
+   }
+   .FollowerTab_box{
+    width: 80%;
+    grid-template-columns: repeat(3,1fr);
+   }
+   .FollowerTabCard_box_profile_img{
+
+    left: 3%;
+
+   }
+} 

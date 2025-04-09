@@ -1,0 +1,24 @@
+.title{
+    width: 100%;
+    padding:0 8rem;
+    text-align: center;
+}
+.title_box{
+    width: 100%;
+    margin:0;
+    text-align: center;
+}
+.title_box h2{
+    font-size: 3rem;
+    line-height: 0;
+}
+@media only screen and (min-width:320px) and (max-width:748px){
+    .title_box{
+        width: 90%;
+    }
+    .title_box h2{
+        font-size: 1rem;
+        line-height: 0;
+        background-color: yellow;
+    }
+}

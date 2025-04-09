@@ -1,0 +1,22 @@
+.AuthorNFTCardBox{
+width:100%;
+}
+.AuthorNFTCardBox_box{
+    width: 80%;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+}
+@media screen and (max-width:35em){
+    .AuthorNFTCardBox_box{
+        width:90%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+@media screen and (min-device-width:768px) and (max-device-width:1024px){
+    .AuthorNFTCardBox_box{
+        width:90%;
+        grid-template-columns: repeat(2,1fr);
+    }
+}

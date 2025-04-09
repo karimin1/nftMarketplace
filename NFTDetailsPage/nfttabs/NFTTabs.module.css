@@ -1,0 +1,23 @@
+.NFTTabs{
+    width: 90%;
+    margin-top: 2rem;
+    
+}
+.NFTTabs_box{
+    width: 80%;
+    margin:0 auto;
+    align-items: center;
+    display: flex;
+    gap:1rem;
+    line-height: 0;
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--shadow-dark-color);
+    
+}
+.NFTTabs_box_img{
+border-radius: 50%;}
+.NFTTabs_box_info{
+    display: grid;
+    align-self: flex-start;
+    line-height: 6px;
+}

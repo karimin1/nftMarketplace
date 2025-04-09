@@ -1,0 +1,43 @@
+.HeroSection{
+    width:90%;
+    margin: 3rem auto;
+}
+.HeroSection_box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:2rem;
+}
+
+.HeroSection_box_left{
+    padding-right: 0rem;
+    border-color: yellow;
+    border-radius: 1rem;
+}
+
+.HeroSection_box_left h1{
+font-size:5rem;
+line-height:1;
+}
+
+.HeroSection_box_left p{
+    margin-bottom:2rem;
+}
+
+@media screen and (max-width:35em){
+    .HeroSection{
+        width: 90%;
+    }
+}
+@media screen and (max-width:55em){
+    .HeroSection_box{
+        grid-template-columns: 1fr;
+        gap:4rem;
+    }
+    .HeroSection_box_left{
+        padding-right:2rem;
+    }
+    .HeroSection_box_left h1{
+        line-height: 1;
+        font-size: 3rem;
+    }
+} 

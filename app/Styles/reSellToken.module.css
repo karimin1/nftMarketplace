@@ -1,0 +1,15 @@
+.reSellToken{
+    
+    margin-top: 0 auto;
+    margin-block:4rem ;
+}
+.reSellToken_box{
+    width: 60%;
+    margin:0 auto;
+}
+.reSellToken_box h1{
+    font-size: 3rem;
+}
+.reSellToken_box_image{
+    margin-block:4rem
+}

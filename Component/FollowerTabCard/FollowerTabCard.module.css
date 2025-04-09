@@ -1,0 +1,132 @@
+
+
+.FollowerTabCard_box{
+    display: grid;
+    background-color: var(--main-bg-color);
+    border-radius: 2rem;
+    transition: all .2s ease-in;
+    cursor: pointer;
+    position: relative;
+}
+.FollowerTabCard_box:hover{
+    box-shadow: var(--box-shadow);
+}
+.FollowerTabCard_rank{
+    position: absolute;
+    z-index: 11111;
+    background-color: var(--icons-color);
+    color:var(--main-bg-color);
+    line-height: 0;
+    margin: 1rem;
+    font-size: .8rem;
+    padding: .1rem .5rem;
+    border-radius: 2rem;
+    border:1px solid var(--icons-color);
+    transition: all .3s ease-in;
+
+}
+.FollowerTabCard_rank:hover{
+    background-color: var(--main-bg-color);
+    color: var(--icons-color);
+}
+.FollowerTabCard_box_img{
+    grid-column:0/-1;
+}
+.FollowerTabCard_box_img_img{
+    border-radius: 2rem;
+    padding: 1rem;
+    z-index: 2222;  
+    height: 200px;
+    width: 270px;
+}
+.FollowerTabCard_box_profile{
+    grid-column: 1/-1;
+    text-align: center;
+    margin-top: -2rem;
+    position: relative;
+}
+.FollowerTabCard_box_profile_img img{
+    border-radius: 50%;
+    padding: 1rem;
+    z-index: 222;
+    left: 5.5rem;
+    position: absolute;
+    top: -3rem;
+    text-align: center;
+}
+.FollowerTabCard_box_profile::before{
+    position: absolute;
+    content: ' ';
+    width: 6rem;
+    height: 6rem;
+    background-color: var(--main-bg-color);
+    border-radius: 50%;
+    top: -2.5rem;
+    text-align: center !important;
+    left: 6rem;
+
+}
+
+.FollowerTabCard_box_info{
+    grid-column: 1 / -1;
+    display: flex;
+    align-items: flex-start;
+    line-height: 0;
+    justify-content: center;
+    padding-bottom: 1rem;
+    gap:3em;
+}
+.FollowerTabCard_box_info h4{
+    font-size: 1rem;
+    line-height:1;
+}
+.FollowerTabCard_box_info_following{
+    background-color: var(--icons-light-color);
+    padding: 1rem 1rem;
+    border-radius: 2rem;
+}
+.FollowerTabCard_box_info_following a {
+     background-color: var(--shadow_dark-color);
+    padding:.5rem .5rem;
+    border-radius: 2rem;
+    border:1px solid var(--shadow_dark-color);
+    transition: all .3s ease-in;
+}
+.FollowerTabCard_box_info_following a:hover{
+    background-color: transparent;
+}
+
+@media screen and (min-device-width:322px) and (max-device-width:375px){
+    .FollowerTabCard_box_profile::before{
+        left: 28.5%;
+    }
+    .FollowerTabCard_box_profile_img{
+        left:-1.6rem;
+    }
+    .FollowerTabCard_box_info{
+        padding-inline:2rem;
+        margin-top: -4rem;
+        }
+    .FollowerTabCard_box_img_img{
+        height:20;
+    }
+}
+    @media screen and (min-device-width:377px) and (max-device-width:425px){
+        .FollowerTabCard_box_profile::before{
+            left:22%;
+        }
+        .FollowerTabCard_box_profile_img{
+            left:-3rem;
+        }
+}
+@media screen and (min-device-width:770px)and(max-device-width:1024px){
+    .FollowerTabCard_box_profile::before{
+        margin-left: 10rem;
+    }
+    
+}
+@media screen and (min-device-width:1024px){
+        .FollowerTabCard_box_profile_img{
+            margin-right: 17.5rem;
+        }
+} 
