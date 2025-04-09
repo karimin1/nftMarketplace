@@ -1,29 +1,28 @@
-# ipfs command line tool
+#  NFT Marketplace
 
-This is a [command line tool for interacting with Kubo](https://docs.ipfs.tech/install/command-line/),
-an [IPFS](https://ipfs.tech) implementation. It contains a full IPFS node.
+A full-stack decentralized NFT Marketplace where users can mint, 
+buy, sell, and view NFTs using **Solidity**, **Ethers.js**, **IPFS**, **React**, and **Next.js**.
 
-## Install
+##  Tech Stack
 
-To install it, move the binary somewhere in your `$PATH`:
+- **Solidity**: Smart contract for minting and listing NFTs
+- **Hardhat**: 		Development, testing, and local blockchain
+- **Ethers.js**: Web3 interactions with Ethereum
+- **Next.js**: Fullstack React framework
+- **React.js**: Frontend UI
+- **IPFS (via `ipfs-http-client`)**: Decentralized storage for NFT metadata and images
+- **MetaMask**: Ethereum wallet connection
 
-```sh
-sudo mv ipfs /usr/local/bin/ipfs
-```
+##  Features
 
-Or run `sudo ./install.sh` which does this for you.
+-  Connect MetaMask wallet
+-  Mint NFTs (image + name + description)
+-  Upload metadata to IPFS
+-  List NFTs for sale
+-  Buy NFTs from the marketplace
+-  View all NFTs (for sale + owned)
+-  Filter NFTs by wallet or ownership
+-  Admin controls (optional)
 
-## Usage
 
-First, you must initialize your local ipfs node:
 
-```sh
-ipfs init
-```
-
-This will give you directions to get started with ipfs.
-You can always get help with:
-
-```sh
-ipfs --help
-```
